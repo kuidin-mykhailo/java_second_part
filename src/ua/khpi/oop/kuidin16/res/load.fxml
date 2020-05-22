@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loadUP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="168.0" prefWidth="600.0" style="-fx-border-color: #f9f9f9; -fx-background-color: linear-gradient(to right top, #c7d5d1, #ada5ab, #868484, #254361, #1a2a3e, #162944, #15274a, #17254f, #3a347b, #6d3da3, #ac3bc3, #f125d8);" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.khpi.oop.kuidin16.controller.LoadController">
+    <children>
+        <AnchorPane fx:id="loadLow" focusTraversable="true" layoutY="68.0" prefHeight="112.0" prefWidth="612.0" style="-fx-border-color: Black; -fx-background-color: White;">
+            <children>
+                <TextField fx:id="LoadField" layoutX="50.0" layoutY="41.0" prefHeight="26.0" prefWidth="473.0" />
+                <Button fx:id="LoadButton" layoutX="524.0" layoutY="41.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: linear-gradient(to left bottom, #c7d5d1, #ada5ab, #868484, #254361, #1a2a3e, #162944, #15274a, #17254f, #3a347b, #6d3da3, #ac3bc3, #f125d8);" text="Load" textFill="WHITE" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="228.0" prefHeight="65.0" prefWidth="144.0" text="Load">
+            <font>
+                <Font name="System Bold Italic" size="53.0" />
+            </font>
+            <textFill>
+                <LinearGradient endY="1.0" startX="1.0" startY="0.26717557251908397">
+                    <stops>
+                        <Stop color="#ffffff15" />
+                        <Stop color="WHITE" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+    </children>
+</AnchorPane>

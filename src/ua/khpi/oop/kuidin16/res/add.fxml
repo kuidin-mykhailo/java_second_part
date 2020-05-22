@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="531.0" prefWidth="765.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.khpi.oop.kuidin16.controller.EditorController">
+    <children>
+        <AnchorPane layoutX="1.0" layoutY="90.0" prefHeight="442.0" prefWidth="764.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <TextField fx:id="passportIdField" layoutX="51.0" layoutY="32.0" prefHeight="39.0" prefWidth="119.0" promptText="12345678XX" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;" text="12345678XX" />
+                <Button fx:id="signUpButton" layoutX="286.0" layoutY="382.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="192.0" style="-fx-background-color: #F39C63;" text="Add" textFill="WHITE">
+                    <font>
+                        <Font name="Arial Bold Italic" size="18.0" />
+                    </font>
+                </Button>
+                <TextField fx:id="nameField" layoutX="51.0" layoutY="83.0" prefHeight="39.0" prefWidth="307.0" promptText="Name" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;" text="Misha" />
+                <TextField fx:id="salaryField" layoutX="403.0" layoutY="32.0" prefHeight="39.0" prefWidth="307.0" promptText="Salary" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;" />
+                <TextField fx:id="educationField" layoutX="51.0" layoutY="135.0" prefHeight="39.0" prefWidth="307.0" promptText="Education" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;" text="High" />
+                <TextField fx:id="positionField" layoutX="51.0" layoutY="238.0" prefHeight="39.0" prefWidth="307.0" promptText="Position" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;" />
+                <TextField fx:id="dayOfBirthField" layoutX="185.0" layoutY="32.0" prefHeight="39.0" prefWidth="173.0" promptText="Day of birth" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;" text="2000-11-15" />
+                <TextField fx:id="apointmentField" layoutX="51.0" layoutY="301.0" prefHeight="39.0" prefWidth="307.0" promptText="Appoitment date" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;" />
+                <Label layoutX="403.0" layoutY="86.0" prefHeight="17.0" prefWidth="307.0" text="Divide by &quot;;&quot;" />
+                <TextArea fx:id="characteriticField" layoutX="403.0" layoutY="117.0" prefHeight="179.0" prefWidth="307.0" promptText="Characteristic" text="Social Skills-50;" />
+                <Label layoutX="189.0" layoutY="14.0" prefHeight="17.0" prefWidth="165.0" text="yyyy-MM-dd" />
+                <Label layoutX="58.0" layoutY="284.0" prefHeight="17.0" prefWidth="165.0" text="yyyy-MM-dd" />
+            <TextField fx:id="departmentField" layoutX="51.0" layoutY="187.0" prefHeight="39.0" prefWidth="307.0" promptText="Department" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="182.0" layoutY="14.0" prefHeight="77.0" prefWidth="499.0" text="Add new Employee" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Arial Bold Italic" size="48.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
